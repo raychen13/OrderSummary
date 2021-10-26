@@ -1,0 +1,145 @@
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+.attribution {
+  margin: 4em auto 0 auto;
+}
+
+body {
+  font-family: 'Red Hat Display', sans-serif;
+  background-color: hsl(225, 100%, 94%);
+  margin: 0;
+  width: auto;
+}
+
+.page {
+  position: relative;
+  margin: -340px auto 0 auto;
+  width: auto;
+  background-color: white;
+  border-radius: 30px;
+  width: 450px;
+  height: 697px;
+}
+
+.top-img img {
+  height: 220px;
+  width: 450px;
+  border-top-right-radius: 30px;
+  border-top-left-radius: 30px;
+}
+
+.summary {
+  text-align: center;
+}
+
+.summary h3 {
+  font-size: 1.75em;
+  font-weight: 900;
+}
+
+.summary p {
+  line-height: 0.8;
+  color: #717FA6;
+  font-weight: 600;
+}
+
+.back-img {
+  position: relative;
+  margin: 0px;
+  width: 100%;
+  height: 450px;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #F7F9FF;
+  margin: 30px 48px 0 48px;
+  height: 98px;
+  border-radius: 20px;
+}
+
+.container a {
+  text-decoration: none;
+  font-weight: 700;
+  margin-right: 20px;
+  color: #382AE1;
+}
+
+.container a:hover {
+  color: #3423DD;
+}
+
+.container a:visited {
+  text-decoration: none;
+}
+
+.container img {
+  height: 48px;
+  width: 48px;
+  margin-left: 20px;
+}
+
+.plandata {
+  margin-right: 80px;
+  margin-top: 10px;
+}
+
+.plandata h3 {
+  font-weight: 700;
+  font-size: 1em;
+  color: black;
+  line-height: 0.1;
+}
+
+.plandata p {
+  color: #717FA6;
+}
+
+.btn {
+  box-shadow: 0px 11px 37px -18px #4B3AF3;
+  background-color: #4B3AF3;
+  border-radius: 11px;
+  border-style: none;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-size: 15px;
+  width: 354px;
+  height: 50px;
+  margin-top: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  margin-left: 48px;
+}
+
+.btn:hover {
+  background-color: #382AE1;
+}
+
+.btn:active {
+  position: relative;
+  top: 1px;
+}
+
+.cancel {
+  margin-top: 20px;
+  display: block;
+  text-decoration: none;
+  color: #6D7899;
+  font-weight: bold;
+  text-align: center;
+}
+
+.cancel:hover {
+  color: #5b6687;
+}
